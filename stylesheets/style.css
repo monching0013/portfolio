@@ -373,7 +373,7 @@ section .title::after{
 }
 /* trades section styling */
 .trades .title::after{
-    content: "Sample Trades";
+    content: "Trades";
 }
 .trades .carousel .card{
     background: #222;
