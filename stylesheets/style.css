@@ -90,6 +90,12 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
 }
+.navbar .logo img{
+    display: block;
+    width: 5em;
+    height: 5em;
+    margin-left: 2em;
+}
 .navbar .logo a{
     color: blue;
     font-size: 35px;
