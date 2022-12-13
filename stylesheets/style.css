@@ -117,7 +117,7 @@ section .title::after{
     color: darkblue;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 20px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
@@ -125,6 +125,9 @@ section .title::after{
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
+}
+.navbar .icons a img{
+    width:70px;
 }
 /* menu btn styling */
 .menu-btn{
@@ -559,11 +562,19 @@ footer span a:hover{
     .max-width{
         padding: 0 50px;
     }
+   .navbar .icons a img{
+        display:flex;
+        margin-left: 50em;
+    }
 }
 @media (max-width: 947px){
     .menu-btn{
         display: block;
         z-index: 999;
+    }
+    .navbar .icons a img{
+        display:flex;
+        margin-left: 20em;
     }
     .menu-btn i.active:before{
         content: "\f00d";
@@ -639,6 +650,10 @@ footer span a:hover{
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .navbar .icons a img{
+        display:flex;
+        margin-left: 5em;
     }
 }
 @media (max-width: 500px) {
