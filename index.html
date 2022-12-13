@@ -31,6 +31,7 @@ else{
 ?>
 
 
+
 <!DOCTYPE html>
 <!-- Created By Monching0013 -->
 <html lang="en">
@@ -52,7 +53,7 @@ else{
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><img src="images/Andreiannah_logo.png" alt=""><a href="#">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
@@ -64,7 +65,11 @@ else{
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
+            <div class="icons">
+                <a href="https://wa.me/+971564568423" target="_blank"><img src="images/whatsapp.png" alt=""></a>
+            </div>
         </div>
+        
     </nav>
 
     <!-- home section start -->
@@ -74,7 +79,7 @@ else{
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Reymond Susi</div>
                 <div class="text-3">And I'm a <span class="text">Contractor</span></div>
-                <a href="https://monching0013.github.io/portfolio/?fbclid=IwAR3ustzMyzy9PKvc5WkQiH862uayTelKmbQRsHP5oe3DxLedzEPFvTCArZI#contact">Hire me</a>
+                <a href="#">Hire me</a>
             </div>
         </div>
     </section>
@@ -274,7 +279,7 @@ else{
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Address</div>
-                                <div class="sub-title">Dubai, United Arab Emirates</div>
+                                <div class="sub-title">Pampanga, Philippines</div>
                             </div>
                         </div>
                         <div class="row">
@@ -294,10 +299,10 @@ else{
                                 <input type="text" name="Full_name" placeholder="Name" required >
                             </div>
                             <div class="field">
-                                <input type="text" name="Contact_Number" placeholder="Contact Number" required>
+                            <input type="text" name="Contact_Number" placeholder="Contact Number" required>
                             </div>
                         </div>
-                        <div class="field">
+                        <div class="field email">
                                 <input type="email" name="Email_Address" placeholder="Email" required>
                             </div>
                         <div class="field">
@@ -320,10 +325,46 @@ else{
     </footer>
 
     <script>
-        $('.carousel').owlCarousel({
+        $(document).ready(function(){
+    $(window).scroll(function(){
+        // sticky navbar on scroll script
+        if(this.scrollY > 20){
+            $('.navbar').addClass("sticky");
+        }else{
+            $('.navbar').removeClass("sticky");
+        }
+        
+        // scroll-up button show/hide script
+        if(this.scrollY > 500){
+            $('.scroll-up-btn').addClass("show");
+        }else{
+            $('.scroll-up-btn').removeClass("show");
+        }
+    });
+
+    // slide-up script
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop: 0});
+        // removing smooth scroll on slide-up button click
+        $('html').css("scrollBehavior", "auto");
+    });
+
+    $('.navbar .menu li a').click(function(){
+        // applying again smooth scroll on menu items click
+        $('html').css("scrollBehavior", "smooth");
+    });
+
+    // toggle menu/navbar script
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
+
+    // owl carousel script
+    $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {
@@ -341,7 +382,8 @@ else{
             }
         }
     });
+});
     </script>
-    <script src="script.js"></script>
+    
 </body>
 </html>
