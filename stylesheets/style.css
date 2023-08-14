@@ -363,7 +363,7 @@ section .title::after{
     background: blueviolet;
 }
 .skills-content .right .electrical::before{
-    width: 90%;
+    width: 95%;
 }
 .skills-content .right .plumbing::before{
     width: 75%;
@@ -379,6 +379,9 @@ section .title::after{
 }
 .skills-content .right .computer::before{
     width: 65%;
+}
+.skills-content .right .mobilephone::before{
+    width: 90%;
 }
 /* trades section styling */
 .trades .title::after{
