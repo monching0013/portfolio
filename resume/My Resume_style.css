@@ -204,24 +204,22 @@ p
 .about .box .year_company h5
 {
     text-transform: uppercase;
-    color: #848c90;
+    color: #93434d;
     font-weight: 600;
     margin-left: 5px;
 }
 .about .box .year_company h4
 {
-    text-transform: uppercase;
-    color: #848c90;
-    font-weight: 600;
+    color: #3d2a2a;
+    font-weight: 800;
     margin-left: 5px;
     display: block;
-    font-size: 0.83em;
+    font-size: 0.90em;
 }
 .about .box .year_company h3
 {
-    text-transform: uppercase;
-    color: #848c90;
-    font-weight: 600;
+    color: #28404d;
+    font-weight: 800;
     margin-left: 5px;
     display: block;
     font-size: 0.75em;
