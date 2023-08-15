@@ -214,6 +214,8 @@ p
     color: #848c90;
     font-weight: 600;
     margin-left: 5px;
+    display: block;
+    font-size: 0.83em;
 }
 .about .box .year_company h3
 {
@@ -221,6 +223,8 @@ p
     color: #848c90;
     font-weight: 600;
     margin-left: 5px;
+    display: block;
+    font-size: 0.75em;
 }
 .about .box .text h4
 {
