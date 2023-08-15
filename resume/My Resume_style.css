@@ -61,17 +61,17 @@ body
 .profileText h2
 {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 1.4em;
 }
 .profileText h2 span
 {
-    font-size: 0,8em;
-    font-weight: 300;
+    font-size: 1.4em;
+    font-weight: 500;
 }
 .contactInfo
 {
