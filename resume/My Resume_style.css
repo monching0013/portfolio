@@ -61,12 +61,12 @@ body
 .profileText h2
 {
     color: #fff;
-    font-size: 1em;
-    margin-top: 15px;
+    font-size: 1.2em;
+    margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
-    line-height: 1.em;
+    line-height: 1.4em;
 }
 .profileText h2 span
 {
