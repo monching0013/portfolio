@@ -208,6 +208,20 @@ p
     font-weight: 600;
     margin-left: 5px;
 }
+.about .box .year_company h4
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.about .box .year_company h3
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+    margin-left: 5px;
+}
 .about .box .text h4
 {
     text-transform: uppercase;
