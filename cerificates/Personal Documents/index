@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training & Seminars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="certification_style.css">
+</head>
+<body>
+     <div class="about">
+                <h2 class="title2">Training & Certifications</h2>
+                <section>
+                    <fieldset>
+                        <legend class="work"><h3>Personal Documents</h3></legend>
+                        <div class="box">   
+                            <div class="text">
+                                <h4><a href="DHVSU BSEE TOR.pdf">DHVSU BS Electrical Engineering TOR</a></h4>
+                            </div>
+                            <div class="year_company">
+                                <h4>Don Honorio Ventura Technological State University</h4>
+                                <h3>Bacolor, Pampanga</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="box">   
+                            <div class="text">
+                                <h4><a href="DHVSU Certification.pdf">DHVSU Certification</a></h4>
+                            </div>
+                            <div class="year_company">
+                                <h4>Don Honorio Ventura Technological State University</h4>
+                                <h3>Bacolor, Pampanga</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="box">   
+                            <div class="text">
+                                <h4><a href="PSA - Certificates.jpg">PSA - Certificates</a></h4>
+                            </div>
+                            <div class="year_company">
+                                <h4>Philippines Statistic Authority</h4>
+                                <h3>Philippines</h3>
+                            </div>
+                        </div>
+            
+                    </fieldset>
+     <div class="about">
+ <body>
+     
