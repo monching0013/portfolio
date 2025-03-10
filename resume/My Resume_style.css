@@ -191,6 +191,10 @@ p
     color: #333;
     margin: 5px;
 }
+Ul {
+    color: #333;
+    margin: 20px;
+}
 .about .box
 {
     display: flex;
