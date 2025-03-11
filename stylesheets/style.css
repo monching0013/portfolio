@@ -43,6 +43,10 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+ul.system {
+    color: #333;
+    margin-left: 25px;
+}
 section .title{
     position: relative;
     text-align: center;
